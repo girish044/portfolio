@@ -675,3 +675,24 @@ footer{
     margin-top:-20px;
     margin-bottom:40px;
 }
+.gallery-caption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+}
+.project-screenshots {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-screenshots img {
+    width: 50%;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 1px solid rgba(255,255,255,0.1);
+}
